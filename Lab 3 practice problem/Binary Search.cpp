@@ -1,5 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+// Binary Search Algorithm Implementation
+//leetcode problem no 704
+//problem link: https://leetcode.com/problems/binary-search/description/?utm=codolio
+
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -25,6 +29,7 @@ public:
         return -1;
     }
 };
+/*
 int main() {
     Solution solution;
     vector<int> nums = {-1,0,3,5,9,12};
@@ -33,3 +38,4 @@ int main() {
     cout << "Index of target: " << result << endl; // Output: Index of target: 4
     return 0;
 }
+*/
